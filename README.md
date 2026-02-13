@@ -1,5 +1,8 @@
 # HTS-2026
 
+[![GitHub license](https://img.shields.io/github/license/houtazak/HTS-2026)](https://github.com/houtazak/HTS-2026) [![GitHub release](https://img.shields.io/github/release/houtazak/HTS-2026.svg)](https://github.com/houtazak/HTS-2026/releases/) [![GitHub stars](https://img.shields.io/github/stars/houtazak/HTS-2026)](https://github.com/houtazak/HTS-2026/stargazers)
+[![DOI](https://zenodo.org/badge/1157299604.svg)](https://zenodo.org/doi/10.5281/zenodo.18634454)
+
 This repository contains FEM implementations of H-formulation for 2D and 3D High Temperature Superconductors (HTS) simulations using NGSolve, presented at HTS workshop 2026.
 
 ## 1) Quickstart
