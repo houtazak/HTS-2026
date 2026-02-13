@@ -1,0 +1,5 @@
+/.vscode
+*.vtk
+*.vtu
+*.pyc
+*.npy
