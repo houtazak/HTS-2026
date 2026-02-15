@@ -69,6 +69,7 @@ Execute one of the scripts in your favorite IDE within your newly created `myenv
 |
 | # Metadata
 ├── AUTHORS # Z. Houta, T. Cherrière, L. Quéval
+├── CITATION.cff 
 └── LICENSE # GNU LGPL 3.0 or any later version
 ```
 
