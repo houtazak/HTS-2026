@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Houta
+    given-names: Zakaria
+    orcid: 0009-0009-3047-0103
+  - family-names: Cherrière
+    given-names: Théodore
+    orcid: 0000-0001-5421-4061
+  - family-names: Quéval
+    given-names: Loïc
+    orcid: 0000-0003-3934-4372
+title: "HTS-2026"
+url: https://github.com/houtazak/HTS-2026
+doi: 10.5281/zenodo.18634454
