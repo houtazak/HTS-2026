@@ -10,12 +10,15 @@ This repository contains FEM implementations of H-formulation for 2D and 3D High
 ### Installation
 Install the required packages in a new Python environment (version 3.13 or later, see `requirements.txt`). 
 
-For doing so, open a terminal, create and activate a dedicated Python environment, using for instance `conda` (requires the installation of [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) ) : 
+For doing so, open a terminal, create and activate a dedicated Python environment, using for instance `conda` (requires the installation of [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) ): 
 
 `conda create -n myenv python=3.13`
 
-with `myenv` being replaced by your environment name.
-Then, go to the folder where the code is located :
+with `myenv` being replaced by your environment name, and activate it:
+
+`conda activate myenv`
+
+Then, go to the folder where the code is located:
 
 `cd C:\path\to\the\folder`
 
@@ -23,15 +26,15 @@ replacing `C:\path\to\the\folder` by the path to the local folder containing the
 
 `pip install -r requirements.txt`
 
-Then, you should be able to run the scripts.
+After that, you should be able to run the scripts on your computer.
 
 ### Run the scripts
-Then, execute one of the scripts on your favorite IDE within your newly created `myenv` environment :
+Execute one of the scripts in your favorite IDE within your newly created `myenv` environment:
 - `2D_tape_external_field.py`
 - `2D_tape_transport_current.py`
 - `3D_bulk_external_field.py`
 
-## 2) Contents
+## 2) Contents of the repository
 
 ```
 ├── utils/   # meshes and nonlinear solver
@@ -50,11 +53,27 @@ Then, execute one of the scripts on your favorite IDE within your newly created 
 ├── README.md
 |
 ├── AUTHORS # Z. Houta, T. Cherrière, L. Quéval
-└── LICENSE # LGPL
+└── LICENSE # GNU LGPL 3.0 or any later version
 ```
+
 ## 3) Citation
 
-Please use Zenodo's DOI.
+Please use the following citation reference if you use the code:
+
+    Z. Houta, T. Cherrière, L. Quéval. GitHub repository houtazak/HTS-2026: Initial release, v0.0. Zenodo archive: https://doi.org/10.5281/zenodo.18634454
+
+Bibtex entry:
+
+    @software{houtazak_2026_10718117,
+    author       = {Houta, Zakaria and Cherrière, Théodore and Quéval, Loïc},
+    title        = {GitHub repository houtazak/HTS-2026: Initial release},
+    year         = {2026},
+    publisher    = {Zenodo},
+    version      = {v0.0},
+    doi          = {10.5281/zenodo.18634454},
+    url          = {https://doi.org/10.5281/zenodo.18634454},
+    copyright    = {GNU Lesser General Public License v3.0 or any later version}
+    }
 
 ## 4) License
 
