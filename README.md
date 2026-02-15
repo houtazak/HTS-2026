@@ -22,7 +22,7 @@ Then, go to the folder where the code is located:
 
 `cd C:\path\to\the\folder`
 
-replacing `C:\path\to\the\folder` by the path to the local folder containing the code. The, install the required packages using 
+replacing `C:\path\to\the\folder` by the path to the local folder containing this code. The, install the required packages using 
 
 `pip install -r requirements.txt`
 
@@ -37,9 +37,24 @@ Execute one of the scripts in your favorite IDE within your newly created `myenv
 ## 2) Contents of the repository
 
 ```
-├── utils/   # meshes and nonlinear solver
+.
+├── results_COMSOL/  # Reference results
+│   ├── 2D/
+│   │   ├── external_field/
+│   │   │   ├── AC_Losses_1mT.txt
+│   │   │   ├── ...
+│   │   └── transport_current/
+│   │       ├── AC_Losses_22.4A.txt
+│   │       ├── ...
+│   └── 3D/
+│       ├── AC_Losses_5mT.txt
+│       └── AC_Losses_20mT.txt
+│
+├── utils/  # Meshes, nonlinear solver and plot utilities
 │   ├── geometry.py
 │   ├── solver.py
+│   ├── solver_mixed.py
+|   ├── trace.py
 │   ├── mesh_comsol_2D.mphtxt
 │   └── mesh_comsol_3D.mphtxt
 │
@@ -52,6 +67,7 @@ Execute one of the scripts in your favorite IDE within your newly created `myenv
 ├── requirements.txt # numpy, matplotlib, ngsolve
 ├── README.md
 |
+| # Metadata
 ├── AUTHORS # Z. Houta, T. Cherrière, L. Quéval
 └── LICENSE # GNU LGPL 3.0 or any later version
 ```
